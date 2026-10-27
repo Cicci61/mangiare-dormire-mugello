@@ -1139,7 +1139,7 @@
    "livello_posizione": "localita",
    "telefoni": [],
    "email": "poderelacarbonaia@gmail.com",
-   "sito": "",
+   "sito": "https://poderelacarbonaia.holiduhost.com/",
    "prezzo": "Medio",
    "stelle": null,
    "cucina": "",
@@ -21501,6 +21501,54 @@
     {
      "nome": "Il Filo, «Corti, la prima cioccolateria del Mugello» (5/10/2025)",
      "url": "https://intavola.ilfilo.net/corti-la-prima-cioccolateria-del-mugello/"
+    }
+   ],
+   "verificato": "2026-10-27",
+   "data_fonte": "2026-10-27"
+  },
+  {
+   "id": "the-lodge-farm-fattoria-il-palagiaccio",
+   "nome": "The Lodge Farm – Fattoria Il Palagiaccio",
+   "gruppo": "mangiare",
+   "categoria": "agristoro",
+   "tipo": "Sala degustazione in fattoria",
+   "comune": "Scarperia e San Piero",
+   "localita": "Senni",
+   "indirizzo": "Località Senni, 40, Scarperia e San Piero",
+   "lat": 43.965441,
+   "lng": 11.361626,
+   "posizione_approx": true,
+   "livello_posizione": "localita",
+   "telefoni": [
+    "055 8402103"
+   ],
+   "email": "visitpalagiaccio@gmail.com",
+   "sito": "https://palagiaccio.com/pages/the-lodge-farm",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Prodotti della fattoria: formaggi, latticini, carni",
+    "Agri-aperitivi a tema il venerdì",
+    "Brunch della domenica",
+    "Bistecca dei bovini allevati in fattoria",
+    "Feste, compleanni, matrimoni ed eventi aziendali",
+    "Area giochi per bambini",
+    "Tour aziendali e cheese experience su prenotazione",
+    "Punto vendita aperto tutti i giorni 9.15-13 e 15.30-19"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Sito ufficiale della Storica Fattoria Il Palagiaccio, pagina The Lodge Farm (letta il 27/10/2026)",
+     "url": "https://palagiaccio.com/pages/the-lodge-farm"
+    },
+    {
+     "nome": "Segnalazione della redazione (27/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
     }
    ],
    "verificato": "2026-10-27",
