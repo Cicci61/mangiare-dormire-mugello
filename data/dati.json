@@ -21515,10 +21515,10 @@
    "comune": "Scarperia e San Piero",
    "localita": "Senni",
    "indirizzo": "Località Senni, 40, Scarperia e San Piero",
-   "lat": 43.965441,
-   "lng": 11.361626,
-   "posizione_approx": true,
-   "livello_posizione": "localita",
+   "lat": 43.973112,
+   "lng": 11.368362,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
    "telefoni": [
     "055 8402103"
    ],
@@ -21548,6 +21548,10 @@
     },
     {
      "nome": "Segnalazione dei titolari (27/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
+    },
+    {
+     "nome": "Verifica diretta della redazione (punto della Fattoria Il Palagiaccio su Google Maps, The Lodge è nella fattoria (Fabio, 27/10/2026))",
      "url": "https://mangiaredormiremugello.it/note-legali.html"
     }
    ],
