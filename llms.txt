@@ -2,12 +2,12 @@
 
 > Guida gratuita e indipendente a dove mangiare e dove dormire nei 9 Comuni dell'Unione Montana dei Comuni del Mugello (Toscana, provincia di Firenze): ristoranti, trattorie, pizzerie, agriturismi, alberghi, B&B, case vacanza, rifugi e campeggi. A cura di Fabio Ceseri.
 
-Dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello, con la fonte in ogni scheda. Ultimo aggiornamento: 26/10/2026.
+Dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello, con la fonte in ogni scheda. Ultimo aggiornamento: 27/10/2026.
 
 ## Dove mangiare
 
 - [Barberino di Mugello](https://mangiaredormiremugello.it/dove-mangiare/barberino-di-mugello/): 56 posti
-- [Borgo San Lorenzo](https://mangiaredormiremugello.it/dove-mangiare/borgo-san-lorenzo/): 62 posti
+- [Borgo San Lorenzo](https://mangiaredormiremugello.it/dove-mangiare/borgo-san-lorenzo/): 63 posti
 - [Dicomano](https://mangiaredormiremugello.it/dove-mangiare/dicomano/): 13 posti
 - [Firenzuola](https://mangiaredormiremugello.it/dove-mangiare/firenzuola/): 37 posti
 - [Marradi](https://mangiaredormiremugello.it/dove-mangiare/marradi/): 14 posti
