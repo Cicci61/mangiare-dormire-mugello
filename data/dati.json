@@ -6475,7 +6475,7 @@
     "+39 3487293159"
    ],
    "email": "info@pievedicamaggiore.it",
-   "sito": "",
+   "sito": "www.pievedicamaggiore.it",
    "prezzo": "80",
    "stelle": null,
    "cucina": "",
@@ -21495,7 +21495,9 @@
    "lng": 11.523046,
    "posizione_approx": false,
    "livello_posizione": "indirizzo",
-   "telefoni": [],
+   "telefoni": [
+    "389 051 3953"
+   ],
    "email": "",
    "sito": "",
    "prezzo": "",
@@ -21508,7 +21510,7 @@
    "avvisi": [],
    "fonti": [
     {
-     "nome": "Segnalazione della redazione: ha preso il posto di Zitto e Mangia (28/10/2026)",
+     "nome": "Segnalazione della redazione: ha preso il posto di Zitto e Mangia, telefono comunicato dalla redazione (28/10/2026)",
      "url": "https://mangiaredormiremugello.it/note-legali.html"
     },
     {
