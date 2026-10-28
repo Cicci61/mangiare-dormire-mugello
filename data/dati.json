@@ -1259,7 +1259,7 @@
     "347 8185934"
    ],
    "email": "info@rimaggiori.com",
-   "sito": "https://rimaggiori.com",
+   "sito": "",
    "prezzo": "Medio",
    "stelle": null,
    "cucina": "",
@@ -2549,7 +2549,7 @@
    "livello_posizione": "strada",
    "telefoni": [],
    "email": "info@agofarsas.it",
-   "sito": "",
+   "sito": "https://campingilsergente.it",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -4300,7 +4300,7 @@
    "livello_posizione": "strada",
    "telefoni": [],
    "email": "info@agofarsas.it",
-   "sito": "",
+   "sito": "https://campingilsergente.it",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -4911,7 +4911,7 @@
    "livello_posizione": "strada",
    "telefoni": [],
    "email": "info@agofarsas.it",
-   "sito": "",
+   "sito": "https://campingilsergente.it",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -5226,7 +5226,7 @@
    "livello_posizione": "strada",
    "telefoni": [],
    "email": "info@agofarsas.it",
-   "sito": "",
+   "sito": "https://campingilsergente.it",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -6475,7 +6475,7 @@
     "+39 3487293159"
    ],
    "email": "info@pievedicamaggiore.it",
-   "sito": "www.pievedicamaggiore.it",
+   "sito": "",
    "prezzo": "80",
    "stelle": null,
    "cucina": "",
@@ -17157,41 +17157,6 @@
    "data_fonte": "2026-10-28"
   },
   {
-   "id": "tre-laghi-del-mugello",
-   "nome": "Tre Laghi del Mugello",
-   "gruppo": "mangiare",
-   "categoria": "ristorante",
-   "tipo": "Ristorante",
-   "comune": "Scarperia e San Piero",
-   "localita": "",
-   "indirizzo": "Via Fernando Margheri, 10, Scarperia e San Piero",
-   "lat": 43.962361,
-   "lng": 11.323028,
-   "posizione_approx": false,
-   "livello_posizione": "indirizzo",
-   "telefoni": [
-    "+39 055 8430859"
-   ],
-   "email": "trelaghidelmugello@gmail.com",
-   "sito": "",
-   "prezzo": "",
-   "stelle": null,
-   "cucina": "cucina tipica mugellana, pizza, pesce, pasti senza glutine",
-   "servizi": [],
-   "camere": "",
-   "posti_letto": "",
-   "chiusura": "",
-   "avvisi": [],
-   "fonti": [
-    {
-     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\"",
-     "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/153-il-lago-del-cavallino.html"
-    }
-   ],
-   "verificato": "2026-10-28",
-   "data_fonte": "2026-10-28"
-  },
-  {
    "id": "il-rustico",
    "nome": "Il Rustico",
    "gruppo": "mangiare",
@@ -20879,7 +20844,7 @@
     "(+39) 0558423018"
    ],
    "email": "info@campingilsergente.it",
-   "sito": "",
+   "sito": "campingilsergente.it/ristorante/",
    "prezzo": "",
    "stelle": null,
    "cucina": "cucina tipica mugellana, pizza",
@@ -21568,6 +21533,45 @@
    ],
    "verificato": "2026-10-28",
    "data_fonte": "2026-10-27"
+  },
+  {
+   "id": "nuovo-bar-dei-vicari",
+   "nome": "Nuovo Bar dei Vicari",
+   "gruppo": "mangiare",
+   "categoria": "bar",
+   "tipo": "Bar",
+   "comune": "Scarperia e San Piero",
+   "localita": "",
+   "indirizzo": "Via Leonardo da Vinci, Scarperia e San Piero",
+   "lat": 43.996664,
+   "lng": 11.350513,
+   "posizione_approx": true,
+   "livello_posizione": "strada",
+   "telefoni": [],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Pranzo: aperto solo a pranzo"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Segnalazione di un utente (28/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
+    },
+    {
+     "nome": "Registro imprese: Nuovo Bar dei Vicari S.n.c., attività attiva (letto il 28/10/2026)",
+     "url": "https://www.companyreports.it/nuovo-bar-dei-vicari-snc-di-murino-maria-luisa-e-murino-rosalinda-05890330482"
+    }
+   ],
+   "verificato": "2026-10-28",
+   "data_fonte": "2026-10-28"
   }
  ]
 }
