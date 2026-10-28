@@ -2,7 +2,9 @@
 
 > Guida gratuita e indipendente a dove mangiare e dove dormire nei 9 Comuni dell'Unione Montana dei Comuni del Mugello (Toscana, provincia di Firenze): ristoranti, trattorie, pizzerie, agriturismi, alberghi, B&B, case vacanza, rifugi e campeggi. A cura di Fabio Ceseri.
 
-Dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello, con la fonte in ogni scheda. Ultimo aggiornamento: 27/10/2026.
+Dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello (https://www.mugellotoscana.it/), con la fonte in ogni scheda. Ultimo aggiornamento: 27/10/2026.
+
+Le locazioni turistiche (appartamenti affittati per brevi periodi) hanno una sola voce per Comune che rimanda all'elenco ufficiale: https://www.mugellotoscana.it/it/accommodation-mugello/short-term-rentals,26.html
 
 ## Dove mangiare
 
