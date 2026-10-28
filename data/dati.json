@@ -1259,7 +1259,7 @@
     "347 8185934"
    ],
    "email": "info@rimaggiori.com",
-   "sito": "",
+   "sito": "https://rimaggiori.com",
    "prezzo": "Medio",
    "stelle": null,
    "cucina": "",
@@ -18018,41 +18018,6 @@
    "data_fonte": "2026-10-28"
   },
   {
-   "id": "i-ghiottone",
-   "nome": "I' Ghiottone",
-   "gruppo": "mangiare",
-   "categoria": "ristorante",
-   "tipo": "Ristorante",
-   "comune": "Dicomano",
-   "localita": "",
-   "indirizzo": "Piazza Francesco Buonamici, 9, Dicomano",
-   "lat": 43.891002,
-   "lng": 11.524824,
-   "posizione_approx": false,
-   "livello_posizione": "indirizzo",
-   "telefoni": [
-    "+39 055 214 581"
-   ],
-   "email": "Bdrmsrls@hotmail.com",
-   "sito": "www.facebook.com/Ghiottonedicomano/",
-   "prezzo": "",
-   "stelle": null,
-   "cucina": "cucina tipica mugellana, pizza, pesce",
-   "servizi": [],
-   "camere": "",
-   "posti_letto": "",
-   "chiusura": "",
-   "avvisi": [],
-   "fonti": [
-    {
-     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\"",
-     "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/192-ighiottone.html"
-    }
-   ],
-   "verificato": "2026-10-28",
-   "data_fonte": "2026-10-28"
-  },
-  {
    "id": "trattoria-il-torrione",
    "nome": "Trattoria il Torrione",
    "gruppo": "mangiare",
@@ -19488,41 +19453,6 @@
    "data_fonte": "2026-10-28"
   },
   {
-   "id": "zitto-e-mangia",
-   "nome": "Zitto e Mangia",
-   "gruppo": "mangiare",
-   "categoria": "pizzeria",
-   "tipo": "",
-   "comune": "Dicomano",
-   "localita": "",
-   "indirizzo": "Via della republica 36, Dicomano",
-   "lat": 43.891104,
-   "lng": 11.523046,
-   "posizione_approx": false,
-   "livello_posizione": "indirizzo",
-   "telefoni": [
-    "3911288210"
-   ],
-   "email": "sebastian.mod@gmail.com",
-   "sito": "",
-   "prezzo": "",
-   "stelle": null,
-   "cucina": "pizza",
-   "servizi": [],
-   "camere": "",
-   "posti_letto": "",
-   "chiusura": "",
-   "avvisi": [],
-   "fonti": [
-    {
-     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\"",
-     "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/973-zitto-e-mangia.html"
-    }
-   ],
-   "verificato": "2026-10-28",
-   "data_fonte": "2026-10-28"
-  },
-  {
    "id": "bonaugo-pizzeria-ristorante",
    "nome": "Bonaugo Pizzeria Ristorante",
    "gruppo": "mangiare",
@@ -20898,39 +20828,6 @@
    "data_fonte": "2026-10-28"
   },
   {
-   "id": "ichipan-sushi",
-   "nome": "Ichipan Sushi",
-   "gruppo": "mangiare",
-   "categoria": "ristorante",
-   "tipo": "Ristorante",
-   "comune": "Dicomano",
-   "localita": "",
-   "indirizzo": "Via Giotto, 13, Dicomano",
-   "lat": 43.8914,
-   "lng": 11.524,
-   "posizione_approx": true,
-   "livello_posizione": "comune",
-   "telefoni": [],
-   "email": "ichipansanlorenzo@gmail.com",
-   "sito": "www.sushiborgosanlorenzo.it/",
-   "prezzo": "",
-   "stelle": null,
-   "cucina": "cucina etnica",
-   "servizi": [],
-   "camere": "",
-   "posti_letto": "",
-   "chiusura": "",
-   "avvisi": [],
-   "fonti": [
-    {
-     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\"",
-     "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/1089-ichipan-sushi.html"
-    }
-   ],
-   "verificato": "2026-10-28",
-   "data_fonte": "2026-10-28"
-  },
-  {
    "id": "iya-sushi-ristorante",
    "nome": "IYA Sushi Ristorante",
    "gruppo": "mangiare",
@@ -21399,39 +21296,6 @@
    "data_fonte": "2026-10-28"
   },
   {
-   "id": "a-casa-di-elisa",
-   "nome": "A casa di Elisa",
-   "gruppo": "mangiare",
-   "categoria": "ristorante",
-   "tipo": "Home restaurant",
-   "comune": "Dicomano",
-   "localita": "",
-   "indirizzo": "Via Frascole 8/G, Dicomano",
-   "lat": 43.892601,
-   "lng": 11.528145,
-   "posizione_approx": true,
-   "livello_posizione": "strada",
-   "telefoni": [],
-   "email": "elisalibera69@gmail.com",
-   "sito": "www.facebook.com/people/A-Casa-di-Elisa-Home-Restaurant/61551097393987/?locale=fr_CA",
-   "prezzo": "",
-   "stelle": null,
-   "cucina": "cucina tipica mugellana",
-   "servizi": [],
-   "camere": "",
-   "posti_letto": "",
-   "chiusura": "",
-   "avvisi": [],
-   "fonti": [
-    {
-     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\"",
-     "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/1135-a-casa-di-elisa.html"
-    }
-   ],
-   "verificato": "2026-10-28",
-   "data_fonte": "2026-10-28"
-  },
-  {
    "id": "gelateria-cioccolateria-corti",
    "nome": "Gelateria Cioccolateria Corti",
    "gruppo": "mangiare",
@@ -21568,6 +21432,88 @@
     {
      "nome": "Registro imprese: Nuovo Bar dei Vicari S.n.c., attività attiva (letto il 28/10/2026)",
      "url": "https://www.companyreports.it/nuovo-bar-dei-vicari-snc-di-murino-maria-luisa-e-murino-rosalinda-05890330482"
+    }
+   ],
+   "verificato": "2026-10-28",
+   "data_fonte": "2026-10-28"
+  },
+  {
+   "id": "ichipan-sushi",
+   "nome": "Ichipan Sushi",
+   "gruppo": "mangiare",
+   "categoria": "ristorante",
+   "tipo": "Ristorante giapponese, sushi all you can eat",
+   "comune": "Borgo San Lorenzo",
+   "localita": "",
+   "indirizzo": "Via Giotto, 13, Borgo San Lorenzo",
+   "lat": 43.954656,
+   "lng": 11.388674,
+   "posizione_approx": true,
+   "livello_posizione": "strada",
+   "telefoni": [
+    "+39 349 322 0050"
+   ],
+   "email": "ichipansanlorenzo@gmail.com",
+   "sito": "https://www.sushiborgosanlorenzo.it/",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "cucina giapponese, sushi",
+   "servizi": [
+    "Aperto tutti i giorni 12-15 e 19-23"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Segnalazione della redazione: il locale è solo a Borgo San Lorenzo, non a Dicomano (28/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
+    },
+    {
+     "nome": "Sito ufficiale Ichipan, contatti e orari (letto il 28/10/2026)",
+     "url": "https://www.sushiborgosanlorenzo.it/"
+    },
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\" (scheda con Comune errato)",
+     "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/1089-ichipan-sushi.html"
+    }
+   ],
+   "verificato": "2026-10-28",
+   "data_fonte": "2026-10-28"
+  },
+  {
+   "id": "risto-polleris",
+   "nome": "Risto Polleris",
+   "gruppo": "mangiare",
+   "categoria": "ristorante",
+   "tipo": "Ristorante",
+   "comune": "Dicomano",
+   "localita": "",
+   "indirizzo": "Piazza della Repubblica, 36, Dicomano",
+   "lat": 43.891104,
+   "lng": 11.523046,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Segnalazione della redazione: ha preso il posto di Zitto e Mangia (28/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
+    },
+    {
+     "nome": "Verifica diretta della redazione (stesso locale di Piazza della Repubblica dove c'era Zitto e Mangia (punto OpenStreetMap))",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
     }
    ],
    "verificato": "2026-10-28",
