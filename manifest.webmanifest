@@ -1,7 +1,7 @@
 {
   "name": "Mangiare e dormire in Mugello",
   "short_name": "Mangiare Dormire",
-  "description": "Dove mangiare e dormire in Mugello: mappa e schede",
+  "description": "Dove mangiare e dormire in Mugello e Valdisieve: mappa e schede",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#faf7f4",

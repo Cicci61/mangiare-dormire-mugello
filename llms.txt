@@ -1,10 +1,10 @@
-# Mangiare e dormire in Mugello
+# Mangiare e dormire in Mugello e Valdisieve
 
-> Guida gratuita e indipendente a dove mangiare e dove dormire nei 9 Comuni dell'Unione Montana dei Comuni del Mugello (Toscana, provincia di Firenze): ristoranti, trattorie, pizzerie, agriturismi, alberghi, B&B, case vacanza, rifugi e campeggi. A cura di Fabio Ceseri.
+> Guida gratuita e indipendente a dove mangiare e dove dormire nei 9 Comuni dell'Unione Montana dei Comuni del Mugello, in Val di Sieve (Pontassieve, Rufina, Londa, Pelago), a Vaglia e alla Consuma (Toscana, provincia di Firenze): ristoranti, trattorie, pizzerie, agriturismi, alberghi, B&B, case vacanza, rifugi e campeggi. A cura di Fabio Ceseri.
 
-Dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello (https://www.mugellotoscana.it/), con la fonte in ogni scheda. Ultimo aggiornamento: 28/10/2026.
+Mugello: dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello (https://www.mugellotoscana.it/). Val di Sieve, Vaglia e Consuma: dati OpenStreetMap (licenza ODbL) controllati sui siti ufficiali delle strutture. Fonte in ogni scheda. Ultimo aggiornamento: 29/10/2026.
 
-Le locazioni turistiche (appartamenti affittati per brevi periodi) hanno una sola voce per Comune che rimanda all'elenco ufficiale: https://www.mugellotoscana.it/it/accommodation-mugello/short-term-rentals,26.html
+Nel Mugello le locazioni turistiche (appartamenti affittati per brevi periodi) hanno una sola voce per Comune che rimanda all'elenco ufficiale: https://www.mugellotoscana.it/it/accommodation-mugello/short-term-rentals,26.html
 
 ## Dove mangiare
 
@@ -17,6 +17,12 @@ Le locazioni turistiche (appartamenti affittati per brevi periodi) hanno una sol
 - [San Godenzo](https://mangiaredormiremugello.it/dove-mangiare/san-godenzo/): 3 posti
 - [Scarperia e San Piero](https://mangiaredormiremugello.it/dove-mangiare/scarperia-e-san-piero/): 27 posti
 - [Vicchio](https://mangiaredormiremugello.it/dove-mangiare/vicchio/): 24 posti
+- [Londa](https://mangiaredormiremugello.it/dove-mangiare/londa/): 2 posti
+- [Pelago](https://mangiaredormiremugello.it/dove-mangiare/pelago/): 14 posti
+- [Pontassieve](https://mangiaredormiremugello.it/dove-mangiare/pontassieve/): 7 posti
+- [Rufina](https://mangiaredormiremugello.it/dove-mangiare/rufina/): 2 posti
+- [Vaglia](https://mangiaredormiremugello.it/dove-mangiare/vaglia/): 2 posti
+- [Montemignaio](https://mangiaredormiremugello.it/dove-mangiare/montemignaio/): 1 posti
 
 ## Dove dormire
 
@@ -29,6 +35,11 @@ Le locazioni turistiche (appartamenti affittati per brevi periodi) hanno una sol
 - [San Godenzo](https://mangiaredormiremugello.it/dove-dormire/san-godenzo/): 18 strutture
 - [Scarperia e San Piero](https://mangiaredormiremugello.it/dove-dormire/scarperia-e-san-piero/): 53 strutture
 - [Vicchio](https://mangiaredormiremugello.it/dove-dormire/vicchio/): 45 strutture
+- [Londa](https://mangiaredormiremugello.it/dove-dormire/londa/): 1 strutture
+- [Pelago](https://mangiaredormiremugello.it/dove-dormire/pelago/): 12 strutture
+- [Pontassieve](https://mangiaredormiremugello.it/dove-dormire/pontassieve/): 6 strutture
+- [Rufina](https://mangiaredormiremugello.it/dove-dormire/rufina/): 5 strutture
+- [Vaglia](https://mangiaredormiremugello.it/dove-dormire/vaglia/): 5 strutture
 
 ## Pagine principali
 
