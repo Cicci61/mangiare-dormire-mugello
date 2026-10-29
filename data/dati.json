@@ -4498,7 +4498,7 @@
     "+39 3473524956"
    ],
    "email": "Info@molindipepe.it",
-   "sito": "",
+   "sito": "http://www.molindipepe.it/",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -4814,7 +4814,7 @@
     "+39 055 815255"
    ],
    "email": "passodellafuta1890@gmail.com",
-   "sito": "www.passodellafuta.com",
+   "sito": "",
    "prezzo": "Basso",
    "stelle": 1,
    "cucina": "",
@@ -4979,7 +4979,7 @@
     "3938024516"
    ],
    "email": "info@poderegliochi.it",
-   "sito": "https://www.poderegliochi.it/",
+   "sito": "",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -21552,6 +21552,61 @@
    "data_fonte": "2026-10-28"
   },
   {
+   "id": "fattoria-poggio-a-mandri",
+   "nome": "Fattoria Poggio a Mandri",
+   "gruppo": "mangiare",
+   "categoria": "agristoro",
+   "tipo": "Azienda agricola con area ristoro e bottega",
+   "comune": "Londa",
+   "localita": "Poggio a Mandri",
+   "indirizzo": "Località Poggio a Mandri, 2, Londa",
+   "lat": 43.8664798,
+   "lng": 11.6220243,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "320 155 4124"
+   ],
+   "email": "fattoriapoggioamandri@gmail.com",
+   "sito": "https://www.fattoriapoggioamandri.it/",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "toscana, prodotti della fattoria",
+   "servizi": [
+    "Allevamento di capre con caseificio, galline ovaiole, suini allo stato semibrado e conigli",
+    "Area ristoro sul panorama con formaggi, salumi, carni e prodotti da forno di produzione propria",
+    "D'estate si mangia in fattoria nei fine settimana, solo su prenotazione",
+    "Bottega in azienda: mar-mer-gio 10-12 e 16-18, sabato 16-18, domenica 10-12 e 16-18",
+    "Il venerdì mattina (8.30-12.30) alla Fierucola dei Contadini di Londa",
+    "Consegne a Firenze e Scandicci",
+    "Prenotazioni e informazioni anche su WhatsApp e Telegram"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Sito ufficiale della Fattoria Poggio a Mandri, home e pagina Contatti (lette il 29/10/2026)",
+     "url": "https://www.fattoriapoggioamandri.it/contatti/"
+    },
+    {
+     "nome": "Pagina Facebook «Azienda Agricola Poggio a Mandri», informazioni di contatto (lette il 29/10/2026)",
+     "url": "https://www.facebook.com/AziendaAgricolaPoggioaMandri"
+    },
+    {
+     "nome": "Segnalazione di Fabio Ceseri (29/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
+    },
+    {
+     "nome": "Punto della fattoria su Google Maps (29/10/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
+    }
+   ],
+   "verificato": "2026-10-29",
+   "data_fonte": "2026-10-29"
+  },
+  {
    "id": "la-locanda-di-bivigliano",
    "nome": "La Locanda di Bivigliano",
    "gruppo": "mangiare",
@@ -21763,7 +21818,7 @@
     "339 285 0655"
    ],
    "email": "info@ilperaccio.it",
-   "sito": "https://ilperaccio.it/",
+   "sito": "",
    "prezzo": "",
    "stelle": null,
    "cucina": "toscana",
@@ -23280,7 +23335,7 @@
     "055 830 1198"
    ],
    "email": "info@trebbio.it",
-   "sito": "http://www.trebbio.it/",
+   "sito": "",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
