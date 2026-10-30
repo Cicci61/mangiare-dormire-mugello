@@ -2,7 +2,7 @@
 
 > Guida gratuita e indipendente a dove mangiare e dove dormire nei 9 Comuni dell'Unione Montana dei Comuni del Mugello, in Val di Sieve (Pontassieve, Rufina, Londa, Pelago), a Vaglia e alla Consuma (Toscana, provincia di Firenze): ristoranti, trattorie, pizzerie, agriturismi, alberghi, B&B, case vacanza, rifugi e campeggi. A cura di Fabio Ceseri.
 
-Mugello: dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello (https://www.mugellotoscana.it/). Val di Sieve, Vaglia e Consuma: dati OpenStreetMap (licenza ODbL) controllati sui siti ufficiali delle strutture. Fonte in ogni scheda. Ultimo aggiornamento: 29/10/2026.
+Mugello: dati dall'elenco ufficiale dell'Ufficio Turismo del Mugello (https://www.mugellotoscana.it/). Val di Sieve, Vaglia e Consuma: dati OpenStreetMap (licenza ODbL) controllati sui siti ufficiali delle strutture. Fonte in ogni scheda. Ultimo aggiornamento: 30/10/2026.
 
 Nel Mugello le locazioni turistiche (appartamenti affittati per brevi periodi) hanno una sola voce per Comune che rimanda all'elenco ufficiale: https://www.mugellotoscana.it/it/accommodation-mugello/short-term-rentals,26.html
 
@@ -34,7 +34,7 @@ Nel Mugello le locazioni turistiche (appartamenti affittati per brevi periodi) h
 - [Palazzuolo sul Senio](https://mangiaredormiremugello.it/dove-dormire/palazzuolo-sul-senio/): 14 strutture
 - [San Godenzo](https://mangiaredormiremugello.it/dove-dormire/san-godenzo/): 18 strutture
 - [Scarperia e San Piero](https://mangiaredormiremugello.it/dove-dormire/scarperia-e-san-piero/): 53 strutture
-- [Vicchio](https://mangiaredormiremugello.it/dove-dormire/vicchio/): 45 strutture
+- [Vicchio](https://mangiaredormiremugello.it/dove-dormire/vicchio/): 44 strutture
 - [Londa](https://mangiaredormiremugello.it/dove-dormire/londa/): 1 strutture
 - [Pelago](https://mangiaredormiremugello.it/dove-dormire/pelago/): 12 strutture
 - [Pontassieve](https://mangiaredormiremugello.it/dove-dormire/pontassieve/): 6 strutture
