@@ -3,8 +3,8 @@
   'use strict';
 
   const CENTRO = [44.0, 11.43], ZOOM = 10;
-  // contatore dei clic senza cookie (Chiama / Portami qui / Sito): indirizzo da impostare quando il servizio è attivo
-  const CONTATORE = '';
+  // contatore dei clic senza cookie (apertura scheda, Chiama, Portami qui, Sito): Worker Cloudflare, vedi tools/contatore/
+  const CONTATORE = 'https://contatore-mangiare-dormire.fabioceseri.workers.dev/';
 
   const ICONE = {
     albergo: '<path d="M3 20V5h2v9h6V8h7a3 3 0 013 3v9h-2v-3H5v3zm4-8a2 2 0 110-4 2 2 0 010 4z"/>',
