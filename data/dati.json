@@ -24,7 +24,12 @@
   },
   {
    "id": "campeggio",
-   "nome": "Campeggi e aree camper",
+   "nome": "Campeggi",
+   "gruppo": "dormire"
+  },
+  {
+   "id": "camper",
+   "nome": "Aree sosta camper",
    "gruppo": "dormire"
   },
   {
@@ -5043,7 +5048,7 @@
     "+39 3487293159"
    ],
    "email": "info@pievedicamaggiore.it",
-   "sito": "www.pievedicamaggiore.it",
+   "sito": "",
    "prezzo": "80",
    "stelle": null,
    "cucina": "",
@@ -7698,7 +7703,7 @@
    "id": "area-sosta-camper-bilancino",
    "nome": "Area Sosta Camper Bilancino",
    "gruppo": "dormire",
-   "categoria": "campeggio",
+   "categoria": "camper",
    "tipo": "Aree sosta camper (a pagamento)",
    "comune": "Barberino di Mugello",
    "localita": "Andolaccio",
@@ -14835,7 +14840,7 @@
     "+39 055 8420086"
    ],
    "email": "info@ristorantelacavallina.it",
-   "sito": "",
+   "sito": "www.ristorantelacavallina.it/",
    "prezzo": "",
    "stelle": null,
    "cucina": "cucina tipica mugellana, vegetariani/vegan",
@@ -21576,6 +21581,387 @@
    "data_fonte": "2026-10-29"
   },
   {
+   "id": "area-sosta-camper-monte-di-fo",
+   "nome": "Area sosta camper Monte di Fò",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (gratuita)",
+   "comune": "Barberino di Mugello",
+   "localita": "",
+   "indirizzo": "Via Santa Lucia, Monte di Fò, Barberino di Mugello",
+   "lat": 44.07679,
+   "lng": 11.28102,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "055 84771"
+   ],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Sosta gratuita",
+    "Animali ammessi",
+    "Caravan ammessi"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "Aperta tutto l'anno",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "CamperContact, posizione indicativa (vicino al Camping Il Sergente)",
+     "url": "https://www.campercontact.com/en/italy/tuscany/monte-di-fo/25560/area-comunale"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "area-camper-del-borghetto",
+   "nome": "Area camper del Borghetto",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (gratuita)",
+   "comune": "Dicomano",
+   "localita": "Borghetto",
+   "indirizzo": "Via Ettore Pinzani / SS67, loc. Borghetto, Dicomano",
+   "lat": 43.894,
+   "lng": 11.5373,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "055 8385426"
+   ],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Sosta gratuita",
+    "Camper service (acqua e scarico)",
+    "Area pic-nic",
+    "Animali ammessi",
+    "Caravan ammessi"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "Aperta tutto l'anno",
+   "avvisi": [
+    "Luglio 2026: bagni e doccia chiusi dopo atti vandalici (sindaco di Dicomano a Il Filo)."
+   ],
+   "fonti": [
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "Il Filo, «Alla scoperta delle aree camper del Mugello: Vicchio e Dicomano» (20/07/2026)",
+     "url": "https://www.ilfilo.net/alla-scoperta-delle-aree-camper-del-mugello-vicchio-e-dicomano/"
+    },
+    {
+     "nome": "Comune di Dicomano, «area scarico Camper al Borghetto» (12/03/2026)",
+     "url": "https://www.comune.dicomano.fi.it/novita/notizie/parziale-revisione-programma-di-spazzamento-meccanizzato"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "area-camper-le-fornaci",
+   "nome": "Area camper Le Fornaci",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (a pagamento)",
+   "comune": "Firenzuola",
+   "localita": "Le Fornaci",
+   "indirizzo": "SP 503, loc. Le Fornaci, Firenzuola",
+   "lat": 44.11641,
+   "lng": 11.37383,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "055 8199441",
+    "055 8199477"
+   ],
+   "email": "info@comune.firenzuola.fi.it",
+   "sito": "https://www.comune.firenzuola.fi.it/",
+   "prezzo": "6 € fino a 24 ore, 10 € per 2 giorni, 15 € per 3 giorni; solo carico e scarico 6 € (parchimetro, monete o carta)",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Colonnine elettriche",
+    "Carico acqua",
+    "Scarico acque grigie e nere",
+    "Posto per disabili",
+    "Sosta massima 72 ore",
+    "Solo autocaravan, niente roulotte"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "Aperta tutto l'anno tranne i mesi invernali (Comune di Firenzuola)",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Comune di Firenzuola, attivazione del pagamento della sosta (aggiornata 24/09/2026)",
+     "url": "https://www.comune.firenzuola.fi.it/it/news/area-camper-in-localita-le-fornaci-nel-capoluogo-di-firenzuola-attivazione-del-sistema-di-pagamento-sosta-dal-11-agosto-2025"
+    },
+    {
+     "nome": "Comune di Firenzuola, regolamento dell'area sosta camper",
+     "url": "https://www.comune.firenzuola.fi.it/it/documenti_pubblici/regolamento-per-l-utilizzo-dell-area-sosta-camper"
+    },
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "OpenStreetMap (© contributori OpenStreetMap, licenza ODbL), posizione",
+     "url": "https://www.openstreetmap.org/way/629211677"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "punto-sosta-camper-il-gorazzaio",
+   "nome": "Punto sosta camper Il Gorazzaio",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (gratuita)",
+   "comune": "Londa",
+   "localita": "Gorazzaio",
+   "indirizzo": "Loc. Gorazzaio, vicino al lago, Londa",
+   "lat": 43.86239,
+   "lng": 11.57572,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [],
+   "email": "",
+   "sito": "https://www.comune.londa.fi.it/",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Sosta gratuita",
+    "Acqua potabile",
+    "Sosta massima 96 ore",
+    "Solo autocaravan"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [
+    "Qui è vietato ogni tipo di scarico (regolamento comunale)."
+   ],
+   "fonti": [
+    {
+     "nome": "Comune di Londa, regolamento del punto sosta camper (delibera C.C. 18 del 27/03/2018)",
+     "url": "https://www.comune.londa.fi.it/amministrazione/documenti-e-dati/atto-normativo/regolamento-la-gestione-punto-sosta-camper-loc"
+    },
+    {
+     "nome": "OpenStreetMap (© contributori OpenStreetMap, licenza ODbL), posizione",
+     "url": "https://www.openstreetmap.org/node/13007047826"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "area-camper-del-parco-delle-piscine",
+   "nome": "Area camper del Parco delle Piscine",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (gratuita)",
+   "comune": "Marradi",
+   "localita": "",
+   "indirizzo": "Via San Benedetto (Parco delle Piscine), Marradi",
+   "lat": 44.0728,
+   "lng": 11.61112,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "055 8045005"
+   ],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Sosta gratuita",
+    "Camper service",
+    "Corrente elettrica",
+    "Animali ammessi"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "Aperta tutto l'anno",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "OpenStreetMap (© contributori OpenStreetMap, licenza ODbL), posizione",
+     "url": "https://www.openstreetmap.org/way/418168140"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "area-camper-parcheggio-il-casone",
+   "nome": "Area camper parcheggio Il Casone",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (gratuita)",
+   "comune": "Palazzuolo sul Senio",
+   "localita": "",
+   "indirizzo": "Via del Poggiolino (parcheggio Il Casone), Palazzuolo sul Senio",
+   "lat": 44.11062,
+   "lng": 11.5493,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "055 8046125"
+   ],
+   "email": "turismo@comune.palazzuolo-sul-senio.fi.it",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Sosta gratuita",
+    "Acqua potabile",
+    "Pozzetto acque grigie e nere",
+    "Corrente elettrica",
+    "Area pic-nic",
+    "Animali ammessi",
+    "Caravan ammessi"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "Aperta tutto l'anno",
+   "avvisi": [],
+   "fonti": [
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "OpenStreetMap (© contributori OpenStreetMap, licenza ODbL), posizione",
+     "url": "https://www.openstreetmap.org/way/524022189"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "area-camper-parco-brigata-fanfulla",
+   "nome": "Area camper Parco Brigata Fanfulla",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Area sosta camper (gratuita)",
+   "comune": "Scarperia e San Piero",
+   "localita": "",
+   "indirizzo": "Via Giudici Falcone e Borsellino, San Piero a Sieve, Scarperia e San Piero",
+   "lat": 43.9626,
+   "lng": 11.3273,
+   "posizione_approx": false,
+   "livello_posizione": "indirizzo",
+   "telefoni": [
+    "055 84875"
+   ],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Sosta gratuita",
+    "Carico acqua e scarico",
+    "Area pic-nic",
+    "Area giochi bambini",
+    "Animali ammessi",
+    "Caravan ammessi"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "Aperta tutto l'anno",
+   "avvisi": [
+    "Luglio 2026: molti posti occupati da camper in sosta prolungata, i posti liberi non sono garantiti (Il Filo)."
+   ],
+   "fonti": [
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "Il Filo, «Alla scoperta delle aree camper del Mugello: Scarperia e San Piero» (26/07/2026)",
+     "url": "https://www.ilfilo.net/alla-scoperta-delle-aree-camper-del-mugello-scarperia-e-san-piero-1/"
+    },
+    {
+     "nome": "OpenStreetMap (© contributori OpenStreetMap, licenza ODbL), posizione",
+     "url": "https://www.openstreetmap.org/node/13142083838"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
+   "id": "camper-service-via-boccaccio",
+   "nome": "Camper service Via Boccaccio",
+   "gruppo": "dormire",
+   "categoria": "camper",
+   "tipo": "Camper service (solo carico e scarico)",
+   "comune": "Scarperia e San Piero",
+   "localita": "",
+   "indirizzo": "Via Giovanni Boccaccio, Scarperia, Scarperia e San Piero",
+   "lat": 43.997409,
+   "lng": 11.356747,
+   "posizione_approx": true,
+   "livello_posizione": "strada",
+   "telefoni": [
+    "055 843161"
+   ],
+   "email": "",
+   "sito": "",
+   "prezzo": "",
+   "stelle": null,
+   "cucina": "",
+   "servizi": [
+    "Carico acqua",
+    "Scarico",
+    "Gratuito"
+   ],
+   "camere": "",
+   "posti_letto": "",
+   "chiusura": "",
+   "avvisi": [
+    "Solo carico e scarico: la sosta non è consentita e la strada è stretta (sindaco a Il Filo, luglio 2026)."
+   ],
+   "fonti": [
+    {
+     "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), «Aree attrezzate per camper»",
+     "url": "https://www.mugellotoscana.it/it/ospitalita-mugello/aree-attrezzate-per-camper.html"
+    },
+    {
+     "nome": "Il Filo, «Alla scoperta delle aree camper del Mugello: Scarperia e San Piero» (26/07/2026)",
+     "url": "https://www.ilfilo.net/alla-scoperta-delle-aree-camper-del-mugello-scarperia-e-san-piero-1/"
+    }
+   ],
+   "verificato": "2026-11-02",
+   "data_fonte": "2026-11-02"
+  },
+  {
    "id": "la-locanda-di-bivigliano",
    "nome": "La Locanda di Bivigliano",
    "gruppo": "mangiare",
@@ -21943,7 +22329,7 @@
     "055 836 8092"
    ],
    "email": "sottani.gelateria@gmail.com",
-   "sito": "http://www.gelateriasottani.it/",
+   "sito": "",
    "prezzo": "",
    "stelle": null,
    "cucina": "",
@@ -23588,7 +23974,7 @@
     "347 6088271"
    ],
    "email": "info@ilpezzatino.it",
-   "sito": "",
+   "sito": "https://www.ilpezzatino.it",
    "prezzo": "",
    "stelle": null,
    "cucina": "",

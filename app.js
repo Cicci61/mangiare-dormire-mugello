@@ -11,6 +11,7 @@
     bb: '<path d="M12 3l9.5 8.5H18.5V21h-5v-6h-3v6h-5v-9.5H2.5z"/>',
     agriturismo: '<path d="M4 21V11l8-6 8 6v10h-5v-5H9v5zM12 2c1 1.5 3 2 5 1.5-.5 2-2 3.5-5 3.5z"/>',
     campeggio: '<path d="M12 3l10 17H2zm0 6l-4.5 9h9z" fill-rule="evenodd"/>',
+    camper: '<path d="M2 6a2 2 0 012-2h11a2 2 0 012 2v3h2.2a2 2 0 011.7 1l1.8 3.1V17a1 1 0 01-1 1h-1.2a3 3 0 01-5.6 0H9.8a3 3 0 01-5.6 0H3a1 1 0 01-1-1zm2 1v4h4V7zm6 0v4h5V7zm7 4v2h3.2l-1.1-2zM7 16a1.2 1.2 0 100 2.4A1.2 1.2 0 007 16zm10 0a1.2 1.2 0 100 2.4 1.2 1.2 0 000-2.4z" fill-rule="evenodd"/>',
     rifugio: '<path d="M2 21l7-13 3 5 3-4 7 12zM9 3l1.5 3h-3z"/>',
     ristorante: '<path d="M7 2h2v7a2 2 0 01-1 1.7V22H6V10.7A2 2 0 015 9V2h2v6h0zm8 0c2.5 0 4 2.5 4 6s-1.2 4-2 4.5V22h-2z"/>',
     pizzeria: '<path d="M12 2c4.5 0 8.5 1.6 10 3.5L12 22 2 5.5C3.5 3.6 7.5 2 12 2zm-2 6a1.5 1.5 0 100 3 1.5 1.5 0 000-3zm4.5 3a1.5 1.5 0 100 3 1.5 1.5 0 000-3z" fill-rule="evenodd"/>',
@@ -168,7 +169,7 @@
       ${dett.length ? `<h2>Informazioni</h2><dl class="dett">${dett.map(([k, v]) => `<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>` : ''}
       ${s.servizi.length ? `<h2>Servizi</h2><ul class="servizi">${s.servizi.map((o) => `<li>${esc(o)}</li>`).join('')}</ul>` : ''}
       <div class="qr"><div id="qr-img"></div><p><strong>Scheda sul telefono</strong><br>Inquadra il codice con la fotocamera per aprire la scheda sul tuo smartphone.</p></div>
-      <p class="segnala-scheda"><a href="${mailtoScheda(s, 'errore')}">Segnala un errore</a> · <a href="${mailtoScheda(s, 'titolare')}">Sei il titolare? Correggi o aggiungi foto e orari</a></p>
+      <p class="segnala-scheda"><a href="${mailtoScheda(s, 'errore')}">Segnala un errore</a> · <a href="${mailtoScheda(s, 'titolare')}">Sei il titolare? Correggi la scheda</a> · <a href="per-i-titolari.html">Foto, menu e orari: per i titolari</a></p>
       <h2>Fonte dei dati</h2>
       <p class="fonti">${s.fonti.map((f) => `<a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.nome)}</a>`).join('<br>')}<br>
       Ultima verifica: ${new Date(s.verificato).toLocaleDateString('it-IT')}</p>`;
@@ -181,7 +182,8 @@
     el.querySelectorAll('a[href^="tel:"]').forEach((a) => a.addEventListener('click', () => conta('chiama', s)));
     el.querySelector('.btn.pri').addEventListener('click', () => conta('portami', s));
     el.querySelectorAll('a[data-sito]').forEach((a) => a.addEventListener('click', () => conta('sito', s)));
-    conta('scheda', s);
+    // chi arriva dalla pagina della scheda (/s/<id>/) è già stato contato lì
+    if (!document.referrer.includes('/s/' + s.id + '/')) conta('scheda', s);
     if (!daHash) history.replaceState(null, '', '#s=' + id);
     if (s._mappa) {
       mappa.setView(s._pos || [s.lat, s.lng], Math.max(mappa.getZoom(), s.posizione_approx ? 14 : 17), { animate: false });
@@ -193,7 +195,7 @@
   // nessun dato personale: solo quale scheda e quale pulsante
   function conta(azione, s) {
     if (!CONTATORE || !navigator.sendBeacon) return;
-    navigator.sendBeacon(CONTATORE, JSON.stringify({ a: azione, id: s.id, c: s.comune }));
+    navigator.sendBeacon(CONTATORE, JSON.stringify({ a: azione, id: s.id }));
   }
 
   function chiudi() {

@@ -26,16 +26,16 @@ Nel Mugello le locazioni turistiche (appartamenti affittati per brevi periodi) h
 
 ## Dove dormire
 
-- [Barberino di Mugello](https://mangiaredormiremugello.it/dove-dormire/barberino-di-mugello/): 48 strutture
+- [Barberino di Mugello](https://mangiaredormiremugello.it/dove-dormire/barberino-di-mugello/): 49 strutture
 - [Borgo San Lorenzo](https://mangiaredormiremugello.it/dove-dormire/borgo-san-lorenzo/): 42 strutture
-- [Dicomano](https://mangiaredormiremugello.it/dove-dormire/dicomano/): 29 strutture
-- [Firenzuola](https://mangiaredormiremugello.it/dove-dormire/firenzuola/): 39 strutture
-- [Marradi](https://mangiaredormiremugello.it/dove-dormire/marradi/): 26 strutture
-- [Palazzuolo sul Senio](https://mangiaredormiremugello.it/dove-dormire/palazzuolo-sul-senio/): 14 strutture
+- [Dicomano](https://mangiaredormiremugello.it/dove-dormire/dicomano/): 30 strutture
+- [Firenzuola](https://mangiaredormiremugello.it/dove-dormire/firenzuola/): 40 strutture
+- [Marradi](https://mangiaredormiremugello.it/dove-dormire/marradi/): 27 strutture
+- [Palazzuolo sul Senio](https://mangiaredormiremugello.it/dove-dormire/palazzuolo-sul-senio/): 15 strutture
 - [San Godenzo](https://mangiaredormiremugello.it/dove-dormire/san-godenzo/): 18 strutture
-- [Scarperia e San Piero](https://mangiaredormiremugello.it/dove-dormire/scarperia-e-san-piero/): 53 strutture
+- [Scarperia e San Piero](https://mangiaredormiremugello.it/dove-dormire/scarperia-e-san-piero/): 55 strutture
 - [Vicchio](https://mangiaredormiremugello.it/dove-dormire/vicchio/): 44 strutture
-- [Londa](https://mangiaredormiremugello.it/dove-dormire/londa/): 1 strutture
+- [Londa](https://mangiaredormiremugello.it/dove-dormire/londa/): 2 strutture
 - [Pelago](https://mangiaredormiremugello.it/dove-dormire/pelago/): 12 strutture
 - [Pontassieve](https://mangiaredormiremugello.it/dove-dormire/pontassieve/): 6 strutture
 - [Rufina](https://mangiaredormiremugello.it/dove-dormire/rufina/): 5 strutture
@@ -45,4 +45,5 @@ Nel Mugello le locazioni turistiche (appartamenti affittati per brevi periodi) h
 
 - [Elenco per paese e per tipo](https://mangiaredormiremugello.it/elenco/)
 - [Mappa interattiva](https://mangiaredormiremugello.it/)
+- [Per i titolari: scheda gratuita, correzioni e offerte](https://mangiaredormiremugello.it/per-i-titolari.html)
 - [Note legali, fonti e privacy](https://mangiaredormiremugello.it/note-legali.html)

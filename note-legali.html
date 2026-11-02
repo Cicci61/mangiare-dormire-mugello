@@ -75,12 +75,16 @@
   Se sei il <b>titolare o il gestore</b> di una struttura presente nella guida puoi chiedere in ogni momento di <b>correggere i dati,
   aggiungere informazioni o rimuovere la scheda</b>, con il link "Sei il titolare?" nella scheda oppure scrivendo a
   <a href="mailto:ceseri@gmail.com?subject=Mangiare%20e%20dormire%20in%20Mugello%3A%20richiesta%20del%20titolare">ceseri@gmail.com</a>.
-  Se la tua struttura manca, puoi segnalarla allo stesso indirizzo.</p>
+  Se la tua struttura manca, puoi segnalarla allo stesso indirizzo. Tutto questo è gratis: trovi i dettagli nella pagina <a href="per-i-titolari.html">Per i titolari</a>.</p>
 
   <h2>Privacy in breve</h2>
   <ul>
     <li><b>Nessun cookie e nessun tracciamento delle persone.</b> Non serve registrarsi e il sito non raccoglie dati di chi lo consulta.
     Il numero di visite è contato con Cloudflare Web Analytics, in forma aggregata, senza cookie e senza dati personali dei visitatori.</li>
+    <li><b>Contatore dei clic, solo totali.</b> Per ogni scheda la guida conta quante volte viene aperta e quante volte vengono toccati
+    «Chiama», «Portami qui» e il link al sito. Si salvano soltanto la scheda, il pulsante, il mese e il totale: nessun cookie,
+    nessun indirizzo IP, nessun dato del telefono o del browser, niente che permetta di riconoscere chi ha toccato.
+    I totali servono a sapere quali schede sono utili e a mostrare ai titolari quante persone li hanno cercati.</li>
     <li>Per mostrare la mappa il browser scarica le immagini dai server di OpenStreetMap. Come per ogni sito, questi server
     e il servizio che ospita la guida ricevono l'indirizzo IP della richiesta.</li>
     <li>"Portami qui" apre Google Maps, "Invia al telefono" apre la condivisione del telefono o WhatsApp: solo se li tocchi tu.</li>
@@ -99,7 +103,9 @@
   <p><b>Chi scrive una segnalazione:</b> indirizzo email e contenuto del messaggio.</p>
   <p><b>Chi visita il sito:</b> il servizio di hosting (GitHub Pages) registra per motivi tecnici e di sicurezza dati di navigazione
   come l'indirizzo IP. Il sito non usa cookie. Cloudflare Web Analytics, secondo il fornitore, non raccoglie né usa dati personali
-  dei visitatori e mostra solo totali (pagine viste, provenienza, tipo di dispositivo).</p>
+  dei visitatori e mostra solo totali (pagine viste, provenienza, tipo di dispositivo).
+  Il contatore dei clic delle schede (Cloudflare Workers) riceve solo il nome della scheda e del pulsante toccato e somma +1 al totale del mese:
+  l'indirizzo IP della richiesta non viene salvato e il conteggio è aggregato, senza alcun dato personale.</p>
   <h3>Perché e su quale base</h3>
   <p>I dati delle strutture sono pubblicati per <b>informare residenti e turisti</b> su dove mangiare e dormire nel territorio.
   La base giuridica è il <b>legittimo interesse</b> (art. 6.1.f GDPR) a rendere più accessibili informazioni di utilità pubblica
@@ -109,7 +115,8 @@
   <p>Le schede restano pubblicate finché le informazioni sono attuali e vengono aggiornate o tolte quando la fonte cambia o su richiesta.
   Le email delle segnalazioni sono conservate per il tempo necessario a gestire la richiesta.</p>
   <h3>A chi vengono comunicati</h3>
-  <p>A nessuno. Il sito è ospitato da GitHub Inc. (GitHub Pages), che agisce come fornitore del servizio di hosting.</p>
+  <p>A nessuno. Il sito è ospitato da GitHub Inc. (GitHub Pages), che agisce come fornitore del servizio di hosting;
+  il conteggio aggregato delle visite e dei clic è affidato a Cloudflare Inc.</p>
   <h3>I tuoi diritti</h3>
   <p>Chiunque sia presente nella guida, o abbia scritto una segnalazione, può chiedere in qualsiasi momento di <b>accedere</b> ai propri dati,
   <b>correggerli</b>, <b>cancellarli</b> o <b>opporsi</b> alla pubblicazione, scrivendo a
@@ -124,10 +131,11 @@
 
   <h2>Pubblicità</h2>
   <p>La consultazione della guida è e resterà gratuita. Eventuali spazi a pagamento (ad esempio schede in evidenza o sponsor)
-  saranno <b>sempre indicati chiaramente</b> come tali e non modificano i dati delle altre strutture.</p>
+  sono <b>sempre indicati chiaramente</b> con la scritta «Contenuto sponsorizzato» e non modificano i dati delle altre strutture.
+  Offerte e prezzi sono nella pagina <a href="per-i-titolari.html">Per i titolari</a>.</p>
 
   <p style="margin-top:32px"><a href="./">← Torna alla mappa</a></p>
-  <p><small>Ultimo aggiornamento di questa pagina: 26 ottobre 2026.</small></p>
+  <p><small>Ultimo aggiornamento di questa pagina: 2 novembre 2026.</small></p>
 </main>
 <!-- Firma Radio Mugello --><div class="firma-radiomugello" style="clear:both;display:flex;justify-content:center;padding:14px 16px;background:#fff;border-top:1px solid #e3e3e3;font:15px/1.4 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1d2a44;text-align:center;flex:none"><a href="https://www.radiomugello.it" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:12px;color:#1d2a44;text-decoration:none"><img src="/radio-mugello-99fm.png" alt="Radio Mugello 99 FM" width="48" height="47" style="width:48px;height:auto;flex:none"><span>Realizzato in collaborazione con <b>Radio Mugello</b> <span style="color:#2158e0;text-decoration:underline">www.radiomugello.it</span></span></a></div>
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c7a8a2a1b2674881817c635ea123577a"}'></script><!-- End Cloudflare Web Analytics -->
