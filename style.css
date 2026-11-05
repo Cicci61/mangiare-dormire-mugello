@@ -222,3 +222,13 @@ body:not(.totem) .solo-totem { display: none !important; }
 .dett dd { margin: 0; }
 .servizi { columns: 2; }
 @media (max-width: 800px) { .gruppi { width: 100%; justify-content: space-between; } .gruppi button { flex: 1; padding: 8px 6px; } }
+
+/* ---------- link Notizie in testata (dal 05/11/2026, compare solo con almeno una notizia) ---------- */
+.notizie-link { margin-left: auto; color: #fff; text-decoration: none; font-weight: 600; font-size: .95rem;
+  border: 1px solid rgba(255,255,255,.55); border-radius: 999px; padding: 8px 14px; white-space: nowrap; }
+.notizie-link:hover { background: rgba(255,255,255,.14); }
+@media (max-width: 800px) {
+  .top { position: relative; }
+  .notizie-link { position: absolute; top: 12px; right: 12px; padding: 5px 10px; font-size: .85rem; }
+  .top:has(.notizie-link) .brand { padding-right: 104px; }
+}
