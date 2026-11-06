@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="canonical" href="https://mangiaredormiremugello.it/gino/">
+<meta name="description" content="Gino, l'assistente di Mangiare e dormire in Mugello e Valdisieve: chiedi dove mangiare e dormire, a voce o scrivendo.">
+<link rel="icon" href="/icons/icon.svg" type="image/svg+xml">
+<title>Chiedi a Gino, l'assistente di Mangiare e dormire in Mugello</title>
+<style>
+  :root {
+    --marrone: #7a3b1d; --rosso: #c0562b; --rosso-scuro: #8c3a17; --fondo-caldo: #f7ede6;
+    --testo: #1c2522; --grigio: #5b6763; --bordo: #e6dcd3; --fondo: #faf7f4; --bianco: #fff; --r: 12px;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --marrone: #e3a27f; --rosso: #e07a4f; --rosso-scuro: #f0a07c; --fondo-caldo: #2b211c;
+      --testo: #eee6e0; --grigio: #b3a69c; --bordo: #3d322b; --fondo: #1a1512; --bianco: #241d19; color-scheme: dark; }
+  }
+  * { box-sizing: border-box; }
+  html, body { height: 100%; }
+  body { margin: 0; background: var(--fondo); color: var(--testo);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex; flex-direction: column; }
+  header { padding: 14px max(16px, env(safe-area-inset-left)) 10px; border-bottom: 1px solid var(--bordo); background: var(--bianco); }
+  header h1 { margin: 0; font-size: 1.15rem; color: var(--marrone); }
+  header p { margin: 2px 0 0; color: var(--grigio); font-size: .85rem; }
+  .prova { display: inline-block; background: var(--fondo-caldo); color: var(--rosso-scuro); border-radius: 999px; padding: 0 8px; font-size: .75rem; font-weight: 600; margin-left: 6px; vertical-align: middle; }
+  main { flex: 1; overflow-y: auto; padding: 16px max(16px, env(safe-area-inset-right)) 16px max(16px, env(safe-area-inset-left)); }
+  .chat { max-width: 680px; margin: 0 auto; display: flex; flex-direction: column; gap: 12px; }
+  .msg { max-width: 88%; padding: 10px 14px; border-radius: var(--r); white-space: pre-wrap; overflow-wrap: anywhere; }
+  .msg.io { align-self: flex-end; background: var(--rosso); color: #fff; border-bottom-right-radius: 4px; }
+  .msg.lui { align-self: flex-start; background: var(--bianco); border: 1px solid var(--bordo); border-bottom-left-radius: 4px; }
+  .msg.attesa { color: var(--grigio); font-style: italic; }
+  .schede { display: grid; gap: 8px; margin-top: 10px; white-space: normal; }
+  .scheda { border: 1px solid var(--bordo); border-radius: 10px; padding: 8px 10px; background: var(--fondo); }
+  .scheda b { display: block; color: var(--marrone); }
+  .scheda small { color: var(--grigio); }
+  .azioni { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+  .azioni a { font-size: .85rem; text-decoration: none; color: var(--rosso-scuro); border: 1px solid var(--bordo); border-radius: 999px; padding: 2px 10px; background: var(--bianco); }
+  .azioni a:focus-visible, button:focus-visible, textarea:focus-visible { outline: 2px solid var(--rosso); outline-offset: 2px; }
+  .esempi { display: flex; flex-wrap: wrap; gap: 6px; }
+  .esempi button { font: inherit; font-size: .85rem; border: 1px solid var(--bordo); background: var(--bianco); color: var(--testo); border-radius: 999px; padding: 4px 12px; cursor: pointer; }
+  footer { border-top: 1px solid var(--bordo); background: var(--bianco); padding: 10px max(16px, env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); }
+  form { max-width: 680px; margin: 0 auto; display: flex; gap: 8px; align-items: flex-end; }
+  textarea { flex: 1; min-width: 0; font: inherit; resize: none; border: 1px solid var(--bordo); border-radius: var(--r); padding: 10px 12px; background: var(--fondo); color: var(--testo); max-height: 7.5em; }
+  button.tondo { flex: none; width: 44px; height: 44px; border-radius: 50%; border: none; cursor: pointer; display: grid; place-items: center; font-size: 1.1rem; }
+  #mic { background: var(--fondo-caldo); color: var(--rosso-scuro); }
+  #mic.attivo { background: var(--rosso); color: #fff; animation: pulsa 1.2s infinite; }
+  #invia { background: var(--rosso); color: #fff; }
+  #invia:disabled { opacity: .5; cursor: default; }
+  .nota { max-width: 680px; margin: 6px auto 0; color: var(--grigio); font-size: .75rem; }
+  .leggi { font: inherit; font-size: .8rem; background: none; border: none; color: var(--rosso-scuro); cursor: pointer; padding: 0; margin-top: 6px; }
+  @keyframes pulsa { 50% { opacity: .6; } }
+  @media (prefers-reduced-motion: reduce) { #mic.attivo { animation: none; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Chiedi a Gino</h1>
+  <p>L'assistente di Mangiare e dormire in Mugello e Valdisieve. Scrivi o tocca il microfono e parla. <a href="/" style="color:inherit">Torna alla guida</a></p>
+</header>
+<main id="scorri">
+  <div class="chat" id="chat">
+    <div class="msg lui">Ciao, sono Gino! Dimmi cosa cerchi e dove: per esempio un agriturismo con piscina, una pizzeria a Borgo o un posto per dormire vicino all'autodromo. Ti rispondo con le strutture della guida.
+      <div class="esempi" style="margin-top:8px">
+        <button type="button">Agriturismo con piscina vicino all'autodromo</button>
+        <button type="button">Pizzeria a Borgo San Lorenzo</button>
+        <button type="button">Dove dormire a Marradi con il cane</button>
+        <button type="button">Ristorante senza glutine a Scarperia</button>
+      </div>
+    </div>
+  </div>
+</main>
+<footer>
+  <form id="modulo">
+    <button type="button" class="tondo" id="mic" aria-label="Parla">🎤</button>
+    <textarea id="domanda" rows="1" maxlength="300" placeholder="Scrivi la tua domanda…" aria-label="La tua domanda"></textarea>
+    <button type="submit" class="tondo" id="invia" aria-label="Invia">➤</button>
+  </form>
+  <p class="nota">Risponde solo con le schede della guida e può sbagliare: orari e disponibilità vanno confermati con una telefonata. Le domande vengono salvate in forma anonima per migliorare la guida: non scrivere dati personali. <a href="/note-legali.html" style="color:inherit">Privacy</a></p>
+</footer>
+<script>
+  const chat = document.getElementById('chat');
+  const scorri = document.getElementById('scorri');
+  const campo = document.getElementById('domanda');
+  const invia = document.getElementById('invia');
+  const mic = document.getElementById('mic');
+  const storia = [];
+
+  function aggiungi(classe, testo) {
+    const d = document.createElement('div');
+    d.className = 'msg ' + classe;
+    d.textContent = testo;
+    chat.append(d);
+    scorri.scrollTop = scorri.scrollHeight;
+    return d;
+  }
+
+  function schede(box, lista) {
+    if (!lista || !lista.length) return;
+    const g = document.createElement('div');
+    g.className = 'schede';
+    for (const s of lista) {
+      const c = document.createElement('div');
+      c.className = 'scheda';
+      const b = document.createElement('b'); b.textContent = s.nome;
+      const sm = document.createElement('small'); sm.textContent = [s.tipo, s.localita ? s.localita + ', ' + s.comune : s.comune, s.km != null ? s.km.toString().replace('.', ',') + ' km' : ''].filter(Boolean).join(' · ');
+      const az = document.createElement('div'); az.className = 'azioni';
+      const link = (testo, href) => { const a = document.createElement('a'); a.textContent = testo; a.href = href; a.target = '_blank'; a.rel = 'noopener'; az.append(a); };
+      if (s.telefono) link('📞 Chiama', 'tel:' + s.telefono.replace(/[^+0-9]/g, ''));
+      link('📍 Portami qui', s.mappa);
+      link('Scheda', s.url);
+      c.append(b, sm, az);
+      g.append(c);
+    }
+    box.append(g);
+  }
+
+  async function chiedi(testo) {
+    testo = testo.trim();
+    if (testo.length < 3) return;
+    aggiungi('io', testo);
+    campo.value = '';
+    invia.disabled = true;
+    const attesa = aggiungi('lui attesa', 'Cerco tra le schede…');
+    try {
+      const r = await fetch('https://assistente-mangiare-dormire.fabioceseri.workers.dev/chiedi', {method: 'POST', headers: {'Content-Type': 'application/json'}, body: JSON.stringify({domanda: testo, storia})});
+      const d = await r.json();
+      attesa.remove();
+      const box = aggiungi('lui', d.risposta || d.errore || 'Non ho capito, riprova.');
+      schede(box, d.schede);
+      if ('speechSynthesis' in window && d.risposta) {
+        const l = document.createElement('button'); l.type = 'button'; l.className = 'leggi'; l.textContent = '🔊 Leggimela';
+        l.addEventListener('click', () => { speechSynthesis.cancel(); const u = new SpeechSynthesisUtterance(d.risposta); u.lang = document.documentElement.lang === 'it' ? 'it-IT' : 'en-US'; speechSynthesis.speak(u); });
+        box.append(document.createElement('br'), l);
+      }
+      storia.push({role: 'user', content: testo}, {role: 'assistant', content: d.risposta || ''});
+    } catch (e) {
+      attesa.textContent = 'Non riesco a collegarmi. Controlla la connessione e riprova.';
+    }
+    invia.disabled = false;
+    scorri.scrollTop = scorri.scrollHeight;
+  }
+
+  document.getElementById('modulo').addEventListener('submit', (e) => { e.preventDefault(); chiedi(campo.value); });
+  campo.addEventListener('keydown', (e) => { if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); chiedi(campo.value); } });
+  for (const b of document.querySelectorAll('.esempi button')) b.addEventListener('click', () => chiedi(b.textContent));
+
+  const Ric = window.SpeechRecognition || window.webkitSpeechRecognition;
+  if (!Ric) { mic.hidden = true; }
+  else {
+    const ric = new Ric();
+    ric.lang = 'it-IT'; ric.interimResults = true; ric.maxAlternatives = 1;
+    let ascolta = false;
+    ric.onresult = (e) => { campo.value = [...e.results].map((r) => r[0].transcript).join(' '); };
+    ric.onend = () => { ascolta = false; mic.classList.remove('attivo'); if (campo.value.trim().length > 2) chiedi(campo.value); };
+    ric.onerror = () => { ascolta = false; mic.classList.remove('attivo'); };
+    mic.addEventListener('click', () => {
+      if (ascolta) { ric.stop(); return; }
+      campo.value = ''; ascolta = true; mic.classList.add('attivo'); ric.start();
+    });
+  }
+</script>
+<!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c7a8a2a1b2674881817c635ea123577a"}'></script><!-- End Cloudflare Web Analytics -->
+</body>
+</html>

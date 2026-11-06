@@ -85,6 +85,11 @@
     «Chiama», «Portami qui» e il link al sito. Si salvano soltanto la scheda, il pulsante, il mese e il totale: nessun cookie,
     nessun indirizzo IP, nessun dato del telefono o del browser, niente che permetta di riconoscere chi ha toccato.
     I totali servono a sapere quali schede sono utili e a mostrare ai titolari quante persone li hanno cercati.</li>
+    <li><b>Gino, l'assistente.</b> Chi usa «Chiedi a Gino» manda la sua domanda a un servizio di intelligenza artificiale
+    (Cloudflare Workers AI) che risponde usando solo le schede della guida e <b>può sbagliare</b>: orari, prezzi e disponibilità vanno sempre confermati con la struttura.
+    Le domande si salvano <b>senza dati di chi le ha fatte</b>, per capire cosa cercano i visitatori e migliorare la guida: non scrivere nella domanda nomi, numeri o altri dati personali.
+    Per evitare abusi le domande sono al massimo 30 al giorno per persona: per contarle l'indirizzo IP viene trasformato in un codice non reversibile, che si cancella dopo 25 ore.
+    Se usi il microfono, la voce viene trasformata in testo dal tuo browser (su Chrome dal servizio di Google, su Safari da quello di Apple).</li>
     <li>Per mostrare la mappa il browser scarica le immagini dai server di OpenStreetMap. Come per ogni sito, questi server
     e il servizio che ospita la guida ricevono l'indirizzo IP della richiesta.</li>
     <li>"Portami qui" apre Google Maps, "Invia al telefono" apre la condivisione del telefono o WhatsApp: solo se li tocchi tu.</li>
@@ -106,6 +111,9 @@
   dei visitatori e mostra solo totali (pagine viste, provenienza, tipo di dispositivo).
   Il contatore dei clic delle schede (Cloudflare Workers) riceve solo il nome della scheda e del pulsante toccato e somma +1 al totale del mese:
   l'indirizzo IP della richiesta non viene salvato e il conteggio è aggregato, senza alcun dato personale.</p>
+  <p><b>Chi usa «Chiedi a Gino»:</b> il testo della domanda, salvato senza indirizzo IP né altri dati di chi l'ha scritta e conservato fino a 400 giorni;
+  un codice ricavato dall'indirizzo IP in modo non reversibile, usato solo per il limite di 30 domande al giorno e cancellato dopo 25 ore.
+  La risposta è scritta da un servizio di intelligenza artificiale di Cloudflare a partire dalle schede della guida.</p>
   <h3>Perché e su quale base</h3>
   <p>I dati delle strutture sono pubblicati per <b>informare residenti e turisti</b> su dove mangiare e dormire nel territorio.
   La base giuridica è il <b>legittimo interesse</b> (art. 6.1.f GDPR) a rendere più accessibili informazioni di utilità pubblica
@@ -116,7 +124,7 @@
   Le email delle segnalazioni sono conservate per il tempo necessario a gestire la richiesta.</p>
   <h3>A chi vengono comunicati</h3>
   <p>A nessuno. Il sito è ospitato da GitHub Inc. (GitHub Pages), che agisce come fornitore del servizio di hosting;
-  il conteggio aggregato delle visite e dei clic è affidato a Cloudflare Inc.</p>
+  il conteggio aggregato delle visite e dei clic e il servizio dell'assistente Gino sono affidati a Cloudflare Inc.</p>
   <h3>I tuoi diritti</h3>
   <p>Chiunque sia presente nella guida, o abbia scritto una segnalazione, può chiedere in qualsiasi momento di <b>accedere</b> ai propri dati,
   <b>correggerli</b>, <b>cancellarli</b> o <b>opporsi</b> alla pubblicazione, scrivendo a
@@ -137,6 +145,7 @@
   <p style="margin-top:32px"><a href="./">← Torna alla mappa</a></p>
   <p><small>Ultimo aggiornamento di questa pagina: 2 novembre 2026.</small></p>
 </main>
+<!-- Gino --><a class="gino-fab" href="/gino/" aria-label="Chiedi a Gino, l'assistente della guida">💬 Chiedi a Gino</a><style>.gino-fab{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:calc(14px + env(safe-area-inset-bottom));z-index:1500;background:#c0562b;color:#fff;text-decoration:none;font:600 15px/1 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;padding:12px 16px;border-radius:999px;box-shadow:0 4px 14px rgba(0,0,0,.25)}.gino-fab:hover{background:#8c3a17}.gino-fab:focus-visible{outline:3px solid #7a3b1d;outline-offset:2px}@media print{.gino-fab{display:none}}</style><!-- /Gino -->
 <!-- Cloudflare Web Analytics --><script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "c7a8a2a1b2674881817c635ea123577a"}'></script><!-- End Cloudflare Web Analytics -->
 </body>
 </html>
