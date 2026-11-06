@@ -232,3 +232,10 @@ body:not(.totem) .solo-totem { display: none !important; }
   .notizie-link { position: absolute; top: 12px; right: 12px; padding: 5px 10px; font-size: .85rem; }
   .top:has(.notizie-link) .brand { padding-right: 104px; }
 }
+
+/* ---------- canale WhatsApp «Mugello info» nel piede del pannello (06/11/2026) ---------- */
+.nota-fonti .wa-link { display: inline-block; margin-top: 10px; background: #128c4b; color: #fff; text-decoration: none;
+  font-weight: 600; font-size: .85rem; line-height: 1.2; border-radius: 999px; padding: 8px 14px;
+  margin-bottom: 48px; /* spazio per non finire sotto il pulsante fisso «Chiedi a Gino» */ }
+.nota-fonti .wa-link:hover { background: #0e7a40; }
+.nota-fonti .wa-link:focus-visible { outline: 3px solid var(--verde); outline-offset: 2px; }
