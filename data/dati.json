@@ -18617,7 +18617,7 @@
   },
   {
    "id": "la-limonaia",
-   "nome": "La Limonaia",
+   "nome": "Ristorante La Limonaia di Villa Senni",
    "gruppo": "mangiare",
    "categoria": "ristorante",
    "tipo": "Ristorante",
@@ -18629,7 +18629,7 @@
    "posizione_approx": true,
    "livello_posizione": "localita",
    "telefoni": [
-    "+39 055 8457616"
+    "+39 331 3045359"
    ],
    "email": "info@lalimonaiadisenni.com",
    "sito": "www.lalimonaiadisenni.com",
@@ -18645,9 +18645,13 @@
     {
      "nome": "Ufficio Turismo del Mugello (Unione Montana dei Comuni del Mugello), \"Dove mangiare\"",
      "url": "https://www.mugellotoscana.it/it/gastronomia/dove-mangiare/item/778-la-limonaia.html"
+    },
+    {
+     "nome": "Nome e telefono aggiornati su indicazione del ristorante (08/11/2026)",
+     "url": "https://mangiaredormiremugello.it/note-legali.html"
     }
    ],
-   "verificato": "2026-11-02",
+   "verificato": "2026-11-08",
    "data_fonte": "2026-11-02"
   },
   {
